@@ -2,7 +2,7 @@
 
 ## Setup
 ```
-Get your Pinecone api key and environment and modify your key and enviroment in line 20, 21 of run.py
+Get your Pinecone api key, environment and index name then modify your key, enviroment and index name in line 20, 21, 30 of run.py
 ```
 
 ## Environment
