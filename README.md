@@ -2,10 +2,14 @@
 
 ## Setup
 ```
-Get your Pinecone api key and environment and modify your key and enviroment in line 
-pip install -r requirements.txt
-
+Get your Pinecone api key and environment and modify your key and enviroment in line 20, 21 of run.py
 ```
+
+## Environment
+```
+pip install -r requirements.txt
+```
+
 
 ## run code
 ```
