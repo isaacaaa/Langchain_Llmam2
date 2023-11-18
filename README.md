@@ -1,9 +1,19 @@
 # Langchain_Llmam2
 
+## Environment
+```
+pip install -r requirements.txt
+```
+
+## run code
+```
+python run.py
+```
+
 ## Question:
-'''
+```
 YOLOv7 outperform which models
-'''
+```
 
 ## Similar texts serached by Pincone with sentence-transformers/all-MiniLM-L6-V2 embeddings:
 '''
@@ -11,6 +21,6 @@ YOLOv7 outperform which models
 '''
 
 ## Answer by Llama2-7b:
-'''
+```
 Based on the results provided, YOLOv7 outperforms both YOLOv4 and YOLOR-CSP on the given tasks.{'output_text': ' Based on the results provided, YOLOv7 outperforms both YOLOv4 and YOLOR-CSP on the given tasks.'}
-'''
+```
