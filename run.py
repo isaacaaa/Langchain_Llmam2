@@ -27,7 +27,7 @@ pinecone.init(
     api_key=PINECONE_API_KEY,
     environment=PINECONE_API_ENV
 )
-index_name = 'yztang'
+index_name = <your index_name>
 
 docsearch = Pinecone.from_texts([t.page_content for t in docs], embeddings, index_name=index_name)
 
