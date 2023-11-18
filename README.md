@@ -1,8 +1,10 @@
 # Langchain_Llmam2
 
-## Environment
+## Setup
 ```
+Get your Pinecone api key and environment and modify your key and enviroment in line 
 pip install -r requirements.txt
+
 ```
 
 ## run code
