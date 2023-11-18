@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 
 
-## run code
+## Run code
 ```
 python run.py
 ```
