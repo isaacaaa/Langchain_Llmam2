@@ -17,9 +17,10 @@ text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
 docs = text_splitter.split_documents(data)
 # print(len(docs))
 # print(docs[0])
-
-PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY', '39329637-7062-4626-813c-55d155cbe903')
-PINECONE_API_ENV = os.environ.get('PINECONE_API_ENV', 'gcp-starter')
+key = <your pinecone api key>
+env = <your pinecone environment>
+PINECONE_API_KEY = os.environ.get('PINECONE_API_KEY', key)
+PINECONE_API_ENV = os.environ.get('PINECONE_API_ENV', env)
 embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-V2')
 
 pinecone.init(
