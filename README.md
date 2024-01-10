@@ -1,5 +1,5 @@
 # Langchain_Llmam2
-
+This is impletation of Retrieval-Augmented Generation with Pincone, Llmam2 and Langchain
 ## Setup
 ```
 Get your Pinecone api key, environment and index name then modify your key, enviroment and index name in line 20, 21, 30 of run.py
